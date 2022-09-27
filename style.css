@@ -1,0 +1,39 @@
+body{
+    background-image: url("Music3.jpeg") ;
+    background-size:auto;
+}
+.heading{
+    font-size: 25px !important;
+    width: 100% !important;
+    margin: 2px !important;
+    margin-top: 10px !important;
+}
+.note{
+    font-size: 16px;
+}
+.disk{
+    width: 200px;
+    border-radius: 100px;
+    height: 200px;
+    margin: 15px;
+}
+.speed_div{
+    float: right;
+}
+.volume_div{
+    float: left;
+}
+#song_name{
+    float: right !important ;
+    margin-right: 250px !important;
+}
+canvas{
+    border: 5px solid red;
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes myAnimation{
+    from{box-shadow: 1px 1px 20px blue;}
+    to{box-shadow: 1px 1px 10px yellow;}
+}
